@@ -2,7 +2,7 @@
 
 Archivo `iphones.json` (junto al .env; contiene claves: no se respalda ni se copia a otra PC).
 
-    {"00008101-001978E836C0001E": {"nombre": "Ricardo", "cuenta": "0102****1022", "clave": "..."}}
+    {"IOS_UDID_LOCAL": {"nombre": "iPhone de ejemplo", "cuenta": "0102****1234", "clave": "..."}}
 
 Con esto, al conectar CUALQUIER iPhone registrado el bot sabe solo con qué cuenta y qué clave pagar,
 sin tocar el .env ni reiniciar nada. Un iPhone que no está aquí se registra con el panel

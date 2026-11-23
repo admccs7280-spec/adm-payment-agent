@@ -21,7 +21,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 os.chdir(RAIZ)
-os.environ.update(DISPOSITIVO="iphone", API_ID="1", API_HASH="x", TELEFONO="+580000000",
+os.environ.update(DISPOSITIVO="iphone", API_ID="1", API_HASH="x", TELEFONO="+58000000000",
                   CUENTA_DEBITAR_DESC="0102****0000", BDV_PASSWORD="x", CHAT_ID_ORDENES="-1",
                   USER_IDS_PERMITIDOS="1", MONTO_MAXIMO_AUTO="0", SESSION_NAME="sesion_prueba_avisos_banco")
 

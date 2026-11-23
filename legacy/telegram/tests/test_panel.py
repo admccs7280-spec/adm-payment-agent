@@ -64,7 +64,7 @@ print("2 ok  claves *_IPHONE")
 # ── 3) validaciones ─────────────────────────────────────────────────────────────────────────
 errores, _ = panel.validar({})
 assert len(errores) >= 6, errores
-bueno = {"API_ID": "12345", "API_HASH": "abc", "TELEFONO": "+584141234567", "CUENTA_DEBITAR_DESC": "0102****1234",
+bueno = {"API_ID": "12345", "API_HASH": "abc", "TELEFONO": "+58000000000", "CUENTA_DEBITAR_DESC": "0102****1234",
          "BDV_PASSWORD": "x", "CHAT_ID_ORDENES": "-1001", "MONTO_MAXIMO_AUTO": "100", "USER_IDS_PERMITIDOS": "1,2"}
 assert panel.validar(bueno) == ([], []), panel.validar(bueno)
 e, a = panel.validar(dict(bueno, USER_IDS_PERMITIDOS="", MONTO_MAXIMO_AUTO="0"))

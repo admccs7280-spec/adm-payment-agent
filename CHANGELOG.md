@@ -1,5 +1,10 @@
 # Historial de versiones
 
+## v0.1.2 — 2026-11-23
+
+- Se reemplazan los ejemplos que podían identificar una PC o un teléfono real por datos ficticios.
+- Se prepara la referencia Telegram para revisión externa sin incluir datos operativos.
+
 ## v0.1.1 — 2026-11-23
 
 - Se separan explícitamente las dos rutas de ADM Automatizado.

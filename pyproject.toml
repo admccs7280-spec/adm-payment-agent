@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "adm-payment-agent"
-version = "0.1.1"
+version = "0.1.2"
 description = "Núcleo local durable para los agentes de pago de ADM"
 readme = "README.md"
 requires-python = ">=3.11"
