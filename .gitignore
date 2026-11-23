@@ -1,0 +1,32 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+config/local/
+*.session
+*.session-journal
+
+# Estado de ejecución y evidencia privada
+state/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+captures/
+logs/
+outbox/
+
+# Entornos y artefactos Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage.xml
+dist/
+build/
+*.egg-info/
+
+# Entornos de desarrollo
+.DS_Store
+.idea/
+.vscode/
