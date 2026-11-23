@@ -1,0 +1,9 @@
+# Dependencias del bot en iPhone 12 para macOS (iphone/.venv). Reconstruir con:
+#   python3 -m venv iphone/.venv && iphone/.venv/bin/python -m pip install -r iphone/requirements-mac.txt
+pillow==13.0.0
+pymobiledevice3==11.43.1
+python-dotenv==1.2.4
+Telethon==1.45.0
+cryptg
+pyobjc-framework-Vision
+pyobjc-framework-Quartz

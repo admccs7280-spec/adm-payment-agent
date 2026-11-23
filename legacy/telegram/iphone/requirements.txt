@@ -1,0 +1,15 @@
+﻿# Dependencias del bot en iPhone 12 (iphone/.venv). Reconstruir con:
+#   python -m venv iphone\.venv ; iphone\.venv\Scripts\python.exe -m pip install -r iphone\requirements.txt
+# Medido el 2026-10-24 con Python 3.12 en Windows 11.
+pillow==13.0.0
+pymobiledevice3==11.43.1
+python-dotenv==1.2.4
+Telethon==1.45.0
+winrt-runtime==4.0.0
+winrt-Windows.Foundation==4!10.0.28000.2705
+winrt-Windows.Foundation.Collections==4!10.0.28000.2705
+winrt-Windows.Globalization==4!10.0.28000.2705
+winrt-Windows.Graphics.Imaging==4!10.0.28000.2705
+winrt-Windows.Media.Ocr==4!10.0.28000.2705
+winrt-Windows.Storage==4!10.0.28000.2705
+winrt-Windows.Storage.Streams==4!10.0.28000.2705

@@ -1,0 +1,26 @@
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+*.session
+*.session-*
+iphones.json
+panel_clave.json
+panel_grupos.json
+
+# Estado y evidencia local
+capturas/
+logs/
+respaldos/
+estado_bot.json
+estado_bot.tmp
+envios_pendientes.json
+envios_pendientes.tmp
+parar_bot.flag
+
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
