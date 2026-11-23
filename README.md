@@ -35,6 +35,6 @@ python3.11 -m unittest discover -s tests -v
 
 ## Publicación y actualización
 
-El repositorio será privado. Cada versión aprobada se etiqueta; las PCs instalan una versión liberada y mantienen su
+El repositorio es privado. Cada versión aprobada se etiqueta; las PCs instalan una versión liberada y mantienen su
 configuración local fuera de Git. Los cambios no se hacen directamente en una PC de operación: se prueban aquí, se
 publican como una nueva versión y luego se despliegan de forma igual en todas las PCs.
