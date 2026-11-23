@@ -1,5 +1,11 @@
 # Historial de versiones
 
+## v0.1.3 — 2026-11-23
+
+- Se incorpora el generador de paquete limpio y reversible para el bot Telegram actual.
+- Se documenta qué forma parte del runtime, qué son herramientas de mantenimiento y qué archivos deben permanecer
+  exclusivamente locales en cada PC.
+
 ## v0.1.2 — 2026-11-23
 
 - Se reemplazan los ejemplos que podían identificar una PC o un teléfono real por datos ficticios.

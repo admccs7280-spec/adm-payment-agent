@@ -22,3 +22,7 @@ código contra una cuenta o teléfono real desde el repositorio. Cualquier ajust
 laboratorio, sin envío de dinero, y después se publica como una versión revisada.
 
 La ruta de futuro no reutiliza Telegram: está en [`../../src/adm_payment_agent/`](../../src/adm_payment_agent/).
+
+Para generar una copia física ordenada y reversible de esta referencia, usa
+`python tools/build_telegram_package.py --output <carpeta-nueva>`. El detalle de qué permanece en runtime está en
+[`ESTRUCTURA-OPERATIVA.md`](ESTRUCTURA-OPERATIVA.md).
